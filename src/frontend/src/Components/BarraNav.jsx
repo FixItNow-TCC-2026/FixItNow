@@ -14,7 +14,8 @@ function BarraNav() {
           <Botao href='#' name='Sobre'/>
           <Botao href='#contato' name='Contato'/>
           <Botao href='#' name='Serviços'/>
-
+          <Botao href='#' name='Configurações'/>
+          
         </div>
         <div className="flex items-center">
              <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-4" href="#">Cadastrar</button>
