@@ -1,3 +1,5 @@
+
+
 function CardConteudo(p){
     return(
         
@@ -6,6 +8,7 @@ function CardConteudo(p){
             <br />
             <h2 className="text-lg font-medium">{p.name}</h2>
             <img className="text-black text-lg font-semibold "  src={p.img} alt={p.name} />
+
         </div>
     );
 }
