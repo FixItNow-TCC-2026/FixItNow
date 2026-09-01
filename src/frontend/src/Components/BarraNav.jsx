@@ -12,10 +12,9 @@ function BarraNav() {
         <div className="border border-green-500 py-4">
           
           <Botao href='#inicio' name='Inicio'/>
-          <Botao href='#sobre' name='Sobre'/>
           <Botao href='#contato' name='Contato'/>
           <Botao href='#' name='Serviços'/>
-           <Botao href='#' name='Configurações'/>
+          <Botao href='#' name='Configurações'/>
 
 
         </div>
