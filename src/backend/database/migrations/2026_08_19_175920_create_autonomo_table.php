@@ -23,10 +23,6 @@ Schema::create('autonomo', function (Blueprint $table) {
     $table->timestamps();
 });
     }
-
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('autonomo');
