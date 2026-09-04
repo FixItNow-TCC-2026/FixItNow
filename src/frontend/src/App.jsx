@@ -1,13 +1,19 @@
+
 import BarraNav from "./Components/BarraNav";
 import ConteudoMain from "./Components/ConteudoMain";
 import Rodape from "./Components/Rodape";
 import Cadastro from "./Components/Cadastro";
 import SelectUser from "./Components/SelectUser"; 
-import Config from "./Components/Config";
+import Config from "./Pages/Config";
+
+
+import Historico from "./Pages/Historico";
 
 function App() {
 
   return (
+  <>
+ 
     <div className="flex flex-col min-h-screen bg-gray-50">
       <header className="bg-white shadow-md sticky top-0 z-50">
         <BarraNav />
@@ -24,7 +30,13 @@ function App() {
         <Cadastro/>
         <SelectUser/>
         <Config/>
+        <Historico />
     </div>
+   
+
+
+    
+  </>
   );
 }
 
